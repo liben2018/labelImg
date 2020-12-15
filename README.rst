@@ -1,8 +1,14 @@
 Installation for macOS
+======================
 
 Requirments:
-- macOS Catalina 10.15.7
-- python3.8.2 (Original in macOS call by python3)
+------------
+
+.. code:: shell
+
+    - macOS Catalina 10.15.7
+    - python3.8.2 (Original in macOS call by python3)
+
 
 Python 3 Virtualenv (Recommended): Virtualenv can avoid a lot of the QT / Python version issues
 
