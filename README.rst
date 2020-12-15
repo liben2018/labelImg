@@ -7,6 +7,7 @@ Requirments:
 Python 3 Virtualenv (Recommended): Virtualenv can avoid a lot of the QT / Python version issues
 
 .. code:: shell
+
     $ pip3 install pipenv --user
     $ export PATH=/Users/ben/Library/Python/3.8/bin:$PATH
     (just for onetime, we will make an app in /application folder, so do not need to add to /Users/<you>/.bashrc)
@@ -21,7 +22,7 @@ Python 3 Virtualenv (Recommended): Virtualenv can avoid a lot of the QT / Python
     pipenv run rm -rf build dist
     pipenv run python3 setup.py py2app -A
     pipenv run mv "dist/labelImg.app" /Applications
-    
+
 ================================================================
 
 LabelImg
