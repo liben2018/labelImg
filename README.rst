@@ -10,7 +10,10 @@ Requirments:
     - python3.8.2 (Original in macOS call by python3)
 
 
-Python 3 Virtualenv (Recommended): Virtualenv can avoid a lot of the QT / Python version issues
+Python 3 Virtualenv (Recommended): 
+----------------------------------
+
+Virtualenv can avoid a lot of the QT / Python version issues
 
 .. code:: shell
 
