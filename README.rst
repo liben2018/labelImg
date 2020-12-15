@@ -18,7 +18,7 @@ Virtualenv can avoid a lot of the QT / Python version issues
 .. code:: shell
 
     $ pip3 install pipenv --user
-    $ export PATH=/Users/ben/Library/Python/3.8/bin:$PATH
+    $ export PATH=/Users/<you>/Library/Python/3.8/bin:$PATH
     (just for onetime, we will make an app in /application folder, so do not need to add to /Users/<you>/.bashrc)
     
     $ pipenv run pip3 install pyqt5==5.13.2 lxml
