@@ -19,7 +19,7 @@ Virtualenv can avoid a lot of the QT / Python version issues
 
     $ pip3 install pipenv --user
     $ export PATH=/Users/<you>/Library/Python/3.8/bin:$PATH
-    (just for onetime, we will make an app in /application folder, so do not need to add to /Users/<you>/.bashrc)
+    (just for onetime, we will make an app in /application folder, so do not need to add to /Users/<you>/.bashrc.)
     
     $ pipenv run pip3 install pyqt5==5.13.2 lxml
     $ pipenv run make qt5py3
@@ -31,6 +31,14 @@ Virtualenv can avoid a lot of the QT / Python version issues
     $ pipenv run rm -rf build dist
     $ pipenv run python3 setup.py py2app -A
     $ pipenv run mv "dist/labelImg.app" /Applications
+
+
+Adding path:
+------------
+
+.. code:: shell
+
+    $ echo export PATH=/Users/<you>/Library/Python/3.8/bin:$PATH >> ~/.bashrc
 
 ================================================================
 
