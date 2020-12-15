@@ -12,16 +12,16 @@ Python 3 Virtualenv (Recommended): Virtualenv can avoid a lot of the QT / Python
     $ export PATH=/Users/ben/Library/Python/3.8/bin:$PATH
     (just for onetime, we will make an app in /application folder, so do not need to add to /Users/<you>/.bashrc)
     
-    pipenv run pip3 install pyqt5==5.13.2 lxml
-    pipenv run make qt5py3
-    pipenv run pip3 install sip
+    $ pipenv run pip3 install pyqt5==5.13.2 lxml
+    $ pipenv run make qt5py3
+    $ pipenv run pip3 install sip
     
-    pipenv run python3 labelImg.py
+    $ pipenv run python3 labelImg.py
     (stop by control + z)
     
-    pipenv run rm -rf build dist
-    pipenv run python3 setup.py py2app -A
-    pipenv run mv "dist/labelImg.app" /Applications
+    $ pipenv run rm -rf build dist
+    $ pipenv run python3 setup.py py2app -A
+    $ pipenv run mv "dist/labelImg.app" /Applications
 
 ================================================================
 
